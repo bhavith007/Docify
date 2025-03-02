@@ -30,12 +30,13 @@ import {
     ItalicIcon,
     UnderlineIcon,
     StrikethroughIcon,
-    RemoveFormattingIcon
+    RemoveFormattingIcon,
 } from "lucide-react";
 import { BsFilePdf } from "react-icons/bs";
 import { useEditorStore } from "@/store/use-editor-store";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import { Avatars } from "./avatars";
+import { Inbox } from "./inbox";
 export const Navbar = () => {
     const { editor } = useEditorStore();
     const insertTable = ({ rows, cols }: { rows: number, cols: number }) => {
@@ -222,6 +223,7 @@ export const Navbar = () => {
             </div>
             <div className="flex gap-3 items-center pl-6">
                 <Avatars />
+                <Inbox />
                 <OrganizationSwitcher
                     afterCreateOrganizationUrl="/"
                     afterLeaveOrganizationUrl="/"
