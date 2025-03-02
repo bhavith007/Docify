@@ -1,4 +1,4 @@
-import { ExternalLinkIcon, FilePenIcon, MoreVertical, PenIcon, TrashIcon } from "lucide-react"
+import { ExternalLinkIcon, FilePenIcon, MoreVertical, TrashIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Id } from "../../../convex/_generated/dataModel";
 import {

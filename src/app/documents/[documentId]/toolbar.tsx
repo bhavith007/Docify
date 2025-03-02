@@ -23,7 +23,6 @@ import {
   ImageIcon,
   UploadIcon,
   SearchIcon,
-  Icon,
   ListOrderedIcon,
   MinusIcon,
   PlusIcon,
@@ -45,11 +44,10 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { type ColorResult, CirclePicker, SketchPicker } from "react-color";
+import { type ColorResult, SketchPicker } from "react-color";
 import { type Level } from "@tiptap/extension-heading";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import TextAlign from "@tiptap/extension-text-align";
 
 const LineHeightButton = () => {
   const { editor } = useEditorStore();
