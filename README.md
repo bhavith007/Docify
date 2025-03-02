@@ -29,7 +29,7 @@ Docify is a feature-rich full-stack document editing application inspired by Goo
 
 ## Live Demo
 
-Check out the live version of Docify here: [Docify](https://docify-007.vercel.app/)
+Check out the live version of Docify here: [Docify](https://docify007.vercel.app/)
 
 ## Installation Guide
 
